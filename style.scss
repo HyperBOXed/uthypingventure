@@ -1,3 +1,183 @@
+@font-face {
+    font-family: "8jvemono";
+    src: url("./fonts/8jve_mono.ttf");
+}
+@font-face {
+    font-family: "8jve";
+    src: url("./fonts/8jve.ttf");
+}
+@font-face {
+    font-family: "proggy";
+    src: url("./fonts/ProggyClean.ttf");
+}
+@font-face {
+    font-family: "cot";
+    src: url("./fonts/cot.ttf");
+}
 body {
-    background-color: #000;
+    background-color: rgb(17, 23, 36);
+    background-image: url("./img/626054-xysjnby7-v4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    padding: 0;
+    margin: 0;
+}
+#hl1 {
+    color: yellow;
+}
+#hl0 {
+    color: rgb(255, 255, 255);
+}
+.center {
+    width: 100%;
+    .centercont {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+}
+.screen {
+    //border: 2px solid red;
+    display: flex;
+    position: absolute;
+    @media only screen and (max-device-width: 913px) {
+        flex-wrap: wrap;
+    }
+    height: 100%;
+    .screencontR {
+        padding: 60px;
+        overflow-y: auto;
+        .sec {
+            margin-top: 60px;
+            text-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 1);
+            h1 {
+                color: #fff;
+                font-family: "proggy";
+                font-size: 64px;
+                font-weight: 600;
+            }
+            h2 {
+                color: #fff;
+                font-family: "proggy";
+                font-size: 48px;
+                font-weight: 600;
+            }
+            p {
+                color: #fff;
+                font-size: 32px;
+                font-family: "proggy";
+            }
+            ul {
+                list-style-image: url('./img/ulbullet.png');
+            }
+        }
+        #media {
+            ul {
+                li {
+                    list-style-type: circle;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    width: 100%;
+                }
+            }
+        }
+        a {
+            font-size: 32px;
+            font-family: "proggy";
+            color: rgb(0, 187, 255);
+        }
+    }
+    .screencontL {
+        display: flex;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.6);
+    }
+}
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #logo {
+        width: 50%;
+        @media only screen and (max-device-width: 913px) {
+            width: 100%;
+        }
+    }
+}
+.ut-STmenu {
+    user-select: none;
+    -moz-user-select: none;
+    width: 290px;
+    height: 330px;
+    @media only screen and (min-device-width: 913px) {
+        position: relative;
+    }
+    font-family: "8jve";
+    margin-bottom: 120px;
+    .stm-block1 {
+        margin-bottom: 10px;
+        background-color: #000;
+        border: 6px solid white;
+    }
+    .stm-block2 {
+        margin-top: 10px;
+        background-color: #000;
+        border: 6px solid white;
+    }
+    .stm-cont {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    p {
+        color: #fff;
+    }
+    #stm-p1 {
+        margin-top: 12px;
+        margin-left: 12px;
+        font-smooth: never;
+        -webkit-font-smoothing : none;
+        font-family: "8jve";
+        font-size: 48px;
+    }
+    #stm-p2 {
+        margin-top: -44px;
+        margin-left: 12px;
+        font-smooth: never;
+        -webkit-font-smoothing : none;
+        font-family: "cot";
+        font-size: 20px;
+    }
+    #stm-p3 {
+        margin-top: -14px;
+        margin-left: 12px;
+        font-smooth: never;
+        -webkit-font-smoothing : none;
+        font-family: "cot";
+        font-size: 20px;
+    }
+    .stm-optlist-cont {
+        margin-right: 24px;
+    }
+    ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        li {
+            a {
+                font-family: "8jve";
+                font-size: 48px;
+                color: #fff;
+                cursor: pointer;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+    }
 }

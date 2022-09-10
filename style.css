@@ -1,3 +1,190 @@
+@font-face {
+  font-family: "8jvemono";
+  src: url("./fonts/8jve_mono.ttf");
+}
+@font-face {
+  font-family: "8jve";
+  src: url("./fonts/8jve.ttf");
+}
+@font-face {
+  font-family: "proggy";
+  src: url("./fonts/ProggyClean.ttf");
+}
+@font-face {
+  font-family: "cot";
+  src: url("./fonts/cot.ttf");
+}
 body {
+  background-color: rgb(17, 23, 36);
+  background-image: url("./img/626054-xysjnby7-v4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+  padding: 0;
+  margin: 0;
+}
+
+#hl1 {
+  color: yellow;
+}
+
+#hl0 {
+  color: rgb(255, 255, 255);
+}
+
+.center {
+  width: 100%;
+}
+.center .centercont {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.screen {
+  display: flex;
+  position: absolute;
+  height: 100%;
+}
+@media only screen and (max-device-width: 913px) {
+  .screen {
+    flex-wrap: wrap;
+  }
+}
+.screen .screencontR {
+  padding: 60px;
+  overflow-y: auto;
+}
+.screen .screencontR .sec {
+  margin-top: 60px;
+  text-shadow: 0px 0px 10px black;
+}
+.screen .screencontR .sec h1 {
+  color: #fff;
+  font-family: "proggy";
+  font-size: 64px;
+  font-weight: 600;
+}
+.screen .screencontR .sec h2 {
+  color: #fff;
+  font-family: "proggy";
+  font-size: 48px;
+  font-weight: 600;
+}
+.screen .screencontR .sec p {
+  color: #fff;
+  font-size: 32px;
+  font-family: "proggy";
+}
+.screen .screencontR .sec ul {
+  list-style-image: url("./img/ulbullet.png");
+}
+.screen .screencontR #media ul li {
+  list-style-type: circle;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.screen .screencontR a {
+  font-size: 32px;
+  font-family: "proggy";
+  color: rgb(0, 187, 255);
+}
+.screen .screencontL {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper #logo {
+  width: 50%;
+}
+@media only screen and (max-device-width: 913px) {
+  .upper #logo {
+    width: 100%;
+  }
+}
+
+.ut-STmenu {
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -moz-user-select: none;
+  width: 290px;
+  height: 330px;
+  font-family: "8jve";
+  margin-bottom: 120px;
+}
+@media only screen and (min-device-width: 913px) {
+  .ut-STmenu {
+    position: relative;
+  }
+}
+.ut-STmenu .stm-block1 {
+  margin-bottom: 10px;
   background-color: #000;
+  border: 6px solid white;
+}
+.ut-STmenu .stm-block2 {
+  margin-top: 10px;
+  background-color: #000;
+  border: 6px solid white;
+}
+.ut-STmenu .stm-cont {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.ut-STmenu p {
+  color: #fff;
+}
+.ut-STmenu #stm-p1 {
+  margin-top: 12px;
+  margin-left: 12px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: "8jve";
+  font-size: 48px;
+}
+.ut-STmenu #stm-p2 {
+  margin-top: -44px;
+  margin-left: 12px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: "cot";
+  font-size: 20px;
+}
+.ut-STmenu #stm-p3 {
+  margin-top: -14px;
+  margin-left: 12px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: "cot";
+  font-size: 20px;
+}
+.ut-STmenu .stm-optlist-cont {
+  margin-right: 24px;
+}
+.ut-STmenu ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.ut-STmenu ul li a {
+  font-family: "8jve";
+  font-size: 48px;
+  color: #fff;
+  cursor: pointer;
+}
+.ut-STmenu ul li a:hover {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */
