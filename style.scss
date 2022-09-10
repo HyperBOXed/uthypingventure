@@ -131,6 +131,9 @@ body {
     }
     font-family: "8jve";
     margin-bottom: 120px;
+    @media only screen and (max-device-width: 913px) {
+        margin-bottom: 640px;
+    }
     .stm-block1 {
         margin-bottom: 10px;
         background-color: #000;
