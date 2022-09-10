@@ -58,17 +58,26 @@ body {
                 color: #fff;
                 font-family: "proggy";
                 font-size: 64px;
+                @media only screen and (max-device-width: 913px) {
+                    font-size: 128px;
+                }
                 font-weight: 600;
             }
             h2 {
                 color: #fff;
                 font-family: "proggy";
                 font-size: 48px;
+                @media only screen and (max-device-width: 913px) {
+                    font-size: 96px;
+                }
                 font-weight: 600;
             }
             p {
                 color: #fff;
                 font-size: 32px;
+                @media only screen and (max-device-width: 913px) {
+                    font-size: 64px;
+                }
                 font-family: "proggy";
             }
             ul {
@@ -88,6 +97,9 @@ body {
         }
         a {
             font-size: 32px;
+            @media only screen and (max-device-width: 913px) {
+                font-size: 64px;
+            }
             font-family: "proggy";
             color: rgb(0, 187, 255);
         }
@@ -144,6 +156,9 @@ body {
         -webkit-font-smoothing : none;
         font-family: "8jve";
         font-size: 48px;
+        @media only screen and (max-device-width: 913px) {
+            font-size: 96px;
+        }
     }
     #stm-p2 {
         margin-top: -44px;
@@ -152,6 +167,9 @@ body {
         -webkit-font-smoothing : none;
         font-family: "cot";
         font-size: 20px;
+        @media only screen and (max-device-width: 913px) {
+            font-size: 40px;
+        }
     }
     #stm-p3 {
         margin-top: -14px;
@@ -160,6 +178,9 @@ body {
         -webkit-font-smoothing : none;
         font-family: "cot";
         font-size: 20px;
+        @media only screen and (max-device-width: 913px) {
+            font-size: 40px;
+        }
     }
     .stm-optlist-cont {
         margin-right: 24px;
@@ -172,6 +193,9 @@ body {
             a {
                 font-family: "8jve";
                 font-size: 48px;
+                @media only screen and (max-device-width: 913px) {
+                    font-size: 96px;
+                }
                 color: #fff;
                 cursor: pointer;
                 &:hover {

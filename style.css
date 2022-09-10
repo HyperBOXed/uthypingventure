@@ -68,16 +68,31 @@ body {
   font-size: 64px;
   font-weight: 600;
 }
+@media only screen and (max-device-width: 913px) {
+  .screen .screencontR .sec h1 {
+    font-size: 128px;
+  }
+}
 .screen .screencontR .sec h2 {
   color: #fff;
   font-family: "proggy";
   font-size: 48px;
   font-weight: 600;
 }
+@media only screen and (max-device-width: 913px) {
+  .screen .screencontR .sec h2 {
+    font-size: 96px;
+  }
+}
 .screen .screencontR .sec p {
   color: #fff;
   font-size: 32px;
   font-family: "proggy";
+}
+@media only screen and (max-device-width: 913px) {
+  .screen .screencontR .sec p {
+    font-size: 64px;
+  }
 }
 .screen .screencontR .sec ul {
   list-style-image: url("./img/ulbullet.png");
@@ -93,6 +108,11 @@ body {
   font-size: 32px;
   font-family: "proggy";
   color: rgb(0, 187, 255);
+}
+@media only screen and (max-device-width: 913px) {
+  .screen .screencontR a {
+    font-size: 64px;
+  }
 }
 .screen .screencontL {
   display: flex;
@@ -155,6 +175,11 @@ body {
   font-family: "8jve";
   font-size: 48px;
 }
+@media only screen and (max-device-width: 913px) {
+  .ut-STmenu #stm-p1 {
+    font-size: 96px;
+  }
+}
 .ut-STmenu #stm-p2 {
   margin-top: -44px;
   margin-left: 12px;
@@ -163,6 +188,11 @@ body {
   font-family: "cot";
   font-size: 20px;
 }
+@media only screen and (max-device-width: 913px) {
+  .ut-STmenu #stm-p2 {
+    font-size: 40px;
+  }
+}
 .ut-STmenu #stm-p3 {
   margin-top: -14px;
   margin-left: 12px;
@@ -170,6 +200,11 @@ body {
   -webkit-font-smoothing: none;
   font-family: "cot";
   font-size: 20px;
+}
+@media only screen and (max-device-width: 913px) {
+  .ut-STmenu #stm-p3 {
+    font-size: 40px;
+  }
 }
 .ut-STmenu .stm-optlist-cont {
   margin-right: 24px;
@@ -184,6 +219,11 @@ body {
   font-size: 48px;
   color: #fff;
   cursor: pointer;
+}
+@media only screen and (max-device-width: 913px) {
+  .ut-STmenu ul li a {
+    font-size: 96px;
+  }
 }
 .ut-STmenu ul li a:hover {
   color: yellow;
